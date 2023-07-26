@@ -1,0 +1,43 @@
+/* PaginationDogs.module.css */
+
+/* Estilos para los botones de paginado */
+.pagination-link {
+    background-color: transparent;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 0 2px;
+    text-decoration: none;
+    transition: font-size 0.2s ease-in-out;
+    font-family: "Balance", sans-serif;
+  }
+  
+  /* Estilos para resaltar los botones cuando se pasa el mouse */
+  .pagination-link:hover {
+    font-size: 18px;
+  }
+  
+  /* Estilos para pagination-previous y pagination-next */
+  .pagination-previous,
+  .pagination-next {
+    background-color: transparent;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 0 2px;
+    text-decoration: none;
+    transition: font-size 0.2s ease-in-out;
+    font-family: "Balance", sans-serif;
+  }
+  
+  /* Estilos para resaltar los botones cuando se pasa el mouse */
+  .pagination-previous:hover,
+  .pagination-next:hover {
+    font-size: 20px; /* Aumenta el tamaño de la fuente cuando se pasa el mouse */
+    transform: translateY(-2px); /* Crea un efecto de salto hacia arriba */
+  }
+  

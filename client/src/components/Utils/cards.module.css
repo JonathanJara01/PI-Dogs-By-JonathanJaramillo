@@ -1,0 +1,24 @@
+/* cards.module.css */
+
+/* Estilos para el contenedor de las cartas */
+.CardsContenedor {
+  display: flex;
+  flex-wrap: wrap;
+  margin: top 30px left 30px right 30px ; /* Aumenta este valor para obtener más espacio entre las cartas */
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para las imágenes de las cartas */
+.CardsContenedor img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+/* Estilos para los títulos de las cartas */
+.CardsContenedor h2 {
+  justify-content: center;
+  margin-block: center;
+}

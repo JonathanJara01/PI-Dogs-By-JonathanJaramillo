@@ -1,0 +1,11 @@
+
+.barraBuscadora{
+    color: black;
+    background-color: transparent;
+    font-size:large;
+    font-family: "Balance", sans-serif;
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+    text-align: center;
+}

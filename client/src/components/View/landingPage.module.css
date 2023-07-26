@@ -1,0 +1,60 @@
+.contenedorLandingPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../Images/adorable-white-bulldog-puppy-portrait.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.botonIngresar{
+  font-size: 50px;
+  background-color: transparent;
+  margin: 0 10px;
+  transform-style: preserve-3d;
+  transform: perspective(700px) translateZ(0);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 0 30px blue;
+  font-family: "Balance", sans-serif;
+  border-radius: 10px;
+}
+
+
+/* Animación para vibrar */
+@keyframes vibrar {
+  0%, 100% {
+    transform: perspective(700px) translateZ(0);
+  }
+  15% {
+    transform: perspective(700px) translateZ(-4px);
+  }
+  30%, 70% {
+    transform: perspective(700px) translateZ(2px);
+  }
+  45%, 55% {
+    transform: perspective(700px) translateZ(-2px);
+  }
+  85% {
+    transform: perspective(700px) translateZ(4px);
+  }
+}
+
+
+.botonIngresar:hover {
+  animation: vibrar 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite; /* Aplicar la animación de vibración al hacer hover */
+}
+
+
+.enlaceInicio{
+  color: black;
+  text-shadow: 0 0 40px white; 
+  text-decoration: none;
+  }
+
+  .tituloLanding{
+    font-size: 45px;
+    font-family: "Balance", sans-serif;
+  }

@@ -1,0 +1,27 @@
+
+/* Estilos para el contenedor de la carta con el efecto de brillo */
+.NavLink-container {
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  color:#2D3142;
+  font-size: 16px;
+}
+
+ .temperament-container{
+    background: #2D3142;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 150px  #C73E1D; 
+    text-align: justify;
+    font-size: 14px;
+  }
+
+
+  .weight-container{
+    background: black;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 100px #C73E1D; 
+    font-size: 14px;
+  }

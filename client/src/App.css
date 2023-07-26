@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background: linear-gradient(to right, white, #A5B09E, white);
+}
+
+@font-face {
+  font-family: "Balance";
+  src: url("./components/FuenteDeLetra/Balance.otf");
+}
+
+.App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+

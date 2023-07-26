@@ -1,0 +1,187 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Balance", sans-serif;
+}
+.contenedorFormPage {
+position: relative;
+width: 600px;
+height: 1300px;
+background: #1c1c1c;
+border-radius: 10px;
+box-shadow: 0 0 30px blue;
+}
+
+.form{
+  position: absolute;
+  inset: 100px;
+  background: #222;
+  padding: 20px 2px;
+  border-radius: 8px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+  .contenedorFormPage h1{
+    color: floralwhite;
+    font-weight: 500;
+  }
+
+  .contenedorFormPage h4{
+    color: floralwhite;
+    font-weight: 500;
+  }
+
+  .contenedorFormPage .input-styleName {
+    position: relative;
+    width: 200px;
+    margin-top: 35px;
+    padding: 10px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: whitesmoke;
+    font-size: 1em;
+    transition: 0.5s;
+    z-index: 10;
+    font-family: "Balance", sans-serif;
+  }
+  .contenedorFormPage .input-styleImage {
+    position: relative;
+    width: 200px;
+    margin-top: 35px;
+    padding: 10px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: whitesmoke;
+    font-size: 1em;
+    transition: 0.5s;
+    z-index: 10;
+    font-family: "Balance", sans-serif;
+  }
+  .contenedorFormPage .input-styleHeight {
+    position: relative;
+    width: 200px;
+    margin-top: 35px;
+    padding: 10px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: whitesmoke;
+    font-size: 1em;
+    transition: 0.5s;
+    z-index: 10;
+    font-family: "Balance", sans-serif;
+  }
+  .contenedorFormPage .input-styleWeight {
+    position: relative;
+    width: 200px;
+    margin-top: 35px;
+    padding: 10px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: whitesmoke;
+    font-size: 1em;
+    transition: 0.5s;
+    z-index: 10;
+    font-family: "Balance", sans-serif;
+  }
+  .contenedorFormPage .input-styleLife_span {
+    position: relative;
+    width: 200px;
+    margin-top: 35px;
+    padding: 10px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: whitesmoke;
+    font-size: 1em;
+    transition: 0.5s;
+    z-index: 10;
+    font-family: "Balance", sans-serif;
+  }
+  .contenedorFormPage .input-styleTemperament {
+    position: relative;
+    width: 200px;
+    margin-top: 35px;
+    padding: 10px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: #8f8f8f;
+    font-size: 1em;
+    transition: 0.5s;
+    z-index: 10;
+    font-family: "Balance", sans-serif;
+  }
+  .contenedorFormPage .label {
+    position: absolute;
+    left: 0;
+    padding: 20px 10px 10px;
+    pointer-events: none;
+    color: #8f8f8f;
+    font-size: 1em;
+    transition: 0.5s;
+  }
+
+  .contenedorFormPage .input-styleName:valid ~ label,
+  .contenedorFormPage .input-styleName:focus ~ label
+  {
+    color: #fff;
+    font-size: 0.75em;
+    transform: translateY(-34px);
+  }
+
+  .contenedorFormPage .style-p{
+    color: #B0381F;
+  }
+
+
+  .contenedorFormPage .input-styleName:valid ~ label,
+  .contenedorFormPage .input-styleName:focus-visible ~ label
+  {
+    height: 44px;
+  }
+
+
+  .contenedorFormPage .contenedor-botonHome{
+    font-family: "Balance", sans-serif;
+  }
+
+
+  .contenedorFormPage .link-home{
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+  .contenedorFormPage .contenedor-botonCreate{
+    font-family: "Balance", sans-serif;
+  }
+
+
+.imageCreate{
+  position: absolute;
+  top: 1000px;
+  left: 500px;
+  width: 300px; /* Ajusta el tamaño horizontal de la imagen */
+  height: 300px;
+}
+
+
+.imageCreate1{
+  position: absolute;
+  top: 100px;
+  left: -300px;
+  width: 250px; /* Ajusta el tamaño horizontal de la imagen */
+  height: 200px;
+}

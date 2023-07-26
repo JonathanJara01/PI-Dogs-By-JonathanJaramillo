@@ -1,0 +1,94 @@
+@keyframes shine {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0);
+  }
+} 
+
+/* Estilos para aplicar el brillo en la carta al pasar el mouse */
+.DetailContainer {
+  position: relative;
+  display: flex;
+  margin: 20px;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  font-family: "Balance", sans-serif;
+  box-shadow: 0 0 15px blue;
+}
+
+.DetailContainer img {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+
+.DetailContainer h2 {
+  justify-content: center;
+  margin-block: center;
+}
+
+.DetailContainer:hover::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border-radius: 5px; /* Ajusta el valor para definir la curvatura del brillo */
+  animation: shine 2.5s infinite; 
+ } 
+
+.enlace4{
+  text-decoration: none;
+  font-size: 25px;
+}
+
+
+@keyframes vibration {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(3px, 3px);
+    }
+  }
+
+.detail {
+    margin: 10px; 
+    background-color: transparent;
+    position: relative;
+}
+
+.detail:hover {
+    animation: vibration 0.2s infinite alternate;
+  }
+
+  .h3 {
+    background: linear-gradient(to right, blue, #2D3142);
+    background-clip: text;
+    -webkit-background-clip: text; /* Para navegadores WebKit (Safari, Chrome) */
+    color: transparent;
+    text-shadow: 0 0 30px #C73E1D; 
+  }
+
+  .h2{
+    background: linear-gradient(to right, whitesmoke, #2D3142);
+    background-clip: text;
+    -webkit-background-clip: text; /* Para navegadores WebKit (Safari, Chrome) */
+    color: transparent;
+    text-shadow: 0 0 100px #C73E1D; 
+  }
+
+
+
+
+.imageDetail{
+    position: absolute;
+    top: 400px;
+    left: 350px;
+    width: 300px; /* Ajusta el tamaño horizontal de la imagen */
+    height: 300px;
+  }

@@ -1,0 +1,56 @@
+
+
+.HomePage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Balance", sans-serif;
+    box-shadow: 0 0 30px blue;
+  }
+  
+  .tituloPrincipal{
+      font-size: 50px;
+      background: black;
+      background-clip: text;
+      color: transparent;
+      text-shadow: 0 0 15px blue; 
+      font-family: "Balance", sans-serif;
+  } 
+   
+    .Jonathan{
+      background: black;
+      background-clip: text;
+      color: transparent;
+      text-shadow: 0 0 30px blue;
+      font-family: "Balance", sans-serif;
+    }
+
+
+    /* homePage.module.css */
+/* Estilos para la imagen en la parte superior izquierda */
+.inferiorGif {
+  position: absolute;
+  top: -40px;
+  left: 150px;
+  width: 300px; /* Ajusta el tamaño horizontal de la imagen */
+  height: 300px;
+  /* Agrega más estilos según sea necesario para ajustar la posición y tamaño de la imagen */
+}
+
+/* Estilos para el contenedor de los filtros */
+.container-filtro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+/* Estilos para el contenedor de cada filtro */
+.filtro-grupo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px; /* Ajusta este valor según el espaciado que desees entre los filtros */
+}
